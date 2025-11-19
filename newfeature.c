@@ -3,7 +3,10 @@
 
 void main()
 {
+<<<<<<< HEAD
 	// need to print current working dir.
+=======
+>>>>>>> develop
 	char pwd[1024];
 	FILE *f = fopen("pwd-log.log", 'w');
 	getcwd(pwd,sizeof(pwd));
